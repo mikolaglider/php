@@ -1,4 +1,17 @@
 {
     "name": "nikolay/php",
-    "require": {}
+    "autoload": {
+	    "files": [
+		    "src/Runner.php"
+	    ]
+    },
+    "require": {
+        "tightenco/collect": "^8.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "scripts": {
+        "phpcs": "phpcs"
+    }
 }
